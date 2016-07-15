@@ -1,0 +1,79 @@
+.messages_tweeter{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.noner{
+    /*visibility: hidden;*/
+    display: none;
+}
+.block{
+    display: block;
+}
+.round {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px; /* Радиус скругления */
+    border: 2px solid #75a5fe; /* Параметры рамки */
+    /*box-shadow: 0 0 7px #cff9fe; !* Параметры тени *!*/
+}
+.button-login{
+    background-color: #31b0d5;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.like{
+    bottom: 0;
+}
+.remove{
+    position: absolute;
+    right: 0 ;
+    opacity:0.05;
+}
+.remove:hover{
+    opacity:0.8;
+}
+.heart{-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    position:absolute;
+    right: 0px ;
+    opacity:0.2;
+    color: red
+}
+.heart:hover{-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    opacity:1;
+}
+.btn{
+    margin-left: 5px;
+}
+.form-group-sm{
+    padding-left: 5px;
+}
+.navbar-fixed-top{
+    border-radius: 0px;
+}
+.tweetBody{
+    position:relative;
+    padding-bottom:35px;
+}
+.tweetBottom{
+    position:absolute;
+    left: -5px ;
+    bottom:0;
+}
+.elements-tweetBottom {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    border: 1px solid #9c9997; /* Параметры границы */
+    background: #f9efff; /* Цвет фона */
+    padding: 5px;
+    border-radius: 6px;
+}
+.elements-tweetBottom:hover{
+    border: 1px solid #aeaba9;
+    background: #eadfff;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
